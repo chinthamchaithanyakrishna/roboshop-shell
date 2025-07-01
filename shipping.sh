@@ -1,5 +1,5 @@
 dnf install maven -y
-cp shipping.repo /etc/systemd/system/shipping.repo
+cp shipping.service /etc/systemd/system/shipping.service
 useradd roboshop
 mkdir /app
 curl -L -o /tmp/shipping.zip https://roboshop-artifacts.s3.amazonaws.com/shipping-v3.zip
