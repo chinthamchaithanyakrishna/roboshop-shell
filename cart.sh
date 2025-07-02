@@ -9,7 +9,6 @@ mkdir /app
 curl -o /tmp/user.zip https://roboshop-artifacts.s3.amazonaws.com/user-v3.zip
 cd /app
 unzip /tmp/cart.zip
-cd /app
 npm install
 
 
