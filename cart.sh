@@ -6,7 +6,7 @@ cp cart.service /etc/systemd/system/cart.service
 
 useradd roboshop
 mkdir /app
-curl -o /tmp/user.zip https://roboshop-artifacts.s3.amazonaws.com/user-v3.zip
+curl -o /tmp/user.zip https://roboshop-artifacts.s3.amazonaws.com/cart.zip
 cd /app
 unzip /tmp/cart.zip
 npm install
