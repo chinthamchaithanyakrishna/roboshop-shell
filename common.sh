@@ -38,10 +38,10 @@ PYTHON(){
 
 MAVEN(){
   dnf install maven -y
+
   APP_PREREQ
-  cd /app
   mvn clean package
-  mv target/shipping-1.0.jar shipping.jar
+  mv target/${component}-1.0.jar ${component}.jar
 
 
   SYSTEMD
