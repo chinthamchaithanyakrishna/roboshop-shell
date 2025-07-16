@@ -9,5 +9,5 @@ MAVEN
 
 dnf install mysql -y
 for file in schema app-user master-data; do
-  mysql -h mysql-dev.rdevopsb85.online -uroot -p$1 < /app/db/$file.sql
+  mysql -h mysql-dev.chaithanya.online -uroot -p$1 < /app/db/$file.sql
 done
