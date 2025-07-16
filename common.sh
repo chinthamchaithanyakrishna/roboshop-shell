@@ -23,8 +23,6 @@ NODEJS() {
   npm install
 
   SYSTEMD
-
-
 }
 
 PYTHON(){
@@ -42,7 +40,6 @@ MAVEN(){
   APP_PREREQ
   mvn clean package
   mv target/${component}-1.0.jar ${component}.jar
-
 
   SYSTEMD
 }
